@@ -13,7 +13,7 @@ First-trimester placental villi from cotinine-confirmed smokers and non-smokers 
 
 ## Code
 
-The scripts in this folder are numbered `00` to `09`. Run `00`, then `00b`, then `01` through `09`. Each one reads the file written by the previous step. `00_cellranger_count.sh` needs Cell Ranger 6.1.2. `00b_cellbender_remove_background.sh` needs CellBender 0.2.2 and a GPU (`--cuda`). The other R scripts were run in R 4.1.2, except CellChat (`09`), which was run in R 4.4.3. Versions are listed in `package_versions.csv`.
+Each scrip included herein reads the file written by the previous step. `00_cellranger_count.sh` needs Cell Ranger 6.1.2. `00b_cellbender_remove_background.sh` needs CellBender 0.2.2 and a GPU (`--cuda`). The other R scripts were run in R 4.1.2, except CellChat (`09`), which was run in R 4.4.3. Versions are listed in `package_versions.csv`.
 
 The scripts cover counting against the GRCh38 pre-mRNA 3.0.0 reference, CellBender ambient correction (18,000 droplets, 150 epochs, false-positive rate 0.01), nucleus QC, doublet scoring (the calls are kept, the nuclei stay in the object), SCTransform integration without regressing mitochondrial counts or sequencing depth, clustering and cell-type annotation, pseudobulk edgeR, the trophoblast slingshot trajectory, proteomics preprocessing and limma, CellChat, and the computational figure panels. Short notes on the parameters are in the scripts.
 
