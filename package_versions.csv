@@ -1,0 +1,35 @@
+package,version,where_recorded,install
+R,4.1.2,manuscript STAR Methods,snRNA-seq trajectory and limma
+CellRanger,6.1.2,manuscript STAR Methods,00_cellranger_count.sh
+CellBender,0.2.2,manuscript STAR Methods,00b_cellbender_remove_background.sh
+Seurat,4.1.0,manuscript STAR Methods,CRAN
+sctransform,0.3.3,manuscript STAR Methods,CRAN
+DoubletFinder,2.0.3,manuscript STAR Methods,GitHub chris-mcginnis-ucsf/DoubletFinder
+edgeR,3.36.0,manuscript STAR Methods,Bioconductor 3.14
+limma,3.56.2,manuscript STAR Methods,Bioconductor 3.17
+SingleCellExperiment,1.22.0,manuscript STAR Methods,Bioconductor
+scuttle,1.4.0,manuscript STAR Methods,Bioconductor
+slingshot,2.2.1,manuscript STAR Methods,Bioconductor
+condiments,1.2.0,manuscript STAR Methods,Bioconductor
+countsplit,1.0.0,manuscript STAR Methods,CRAN
+Augur,1.0.3,manuscript STAR Methods,GitHub neurorestore/Augur
+clustree,0.5.1,manuscript STAR Methods,CRAN
+ggplot2,3.3.6,manuscript STAR Methods,CRAN
+tidyr,1.2.0,manuscript STAR Methods,CRAN
+dplyr,1.1.4,CellChat sessionInfo,CRAN; manuscript did not record a dplyr version
+patchwork,1.1.1,manuscript STAR Methods,CRAN
+cowplot,1.1.1,manuscript STAR Methods,CRAN
+EnhancedVolcano,1.18.0,manuscript STAR Methods,Bioconductor
+viridis,1.6.4,manuscript STAR Methods,CRAN
+ComplexHeatmap,2.16.0,manuscript STAR Methods,Bioconductor
+RColorBrewer,1.1.3,manuscript STAR Methods,CRAN
+pheatmap,1.0.12,manuscript STAR Methods,CRAN
+RVenn,1.1.0,manuscript STAR Methods,CRAN
+R,4.4.3,CellChat sessionInfo,CellChat only
+CellChat,2.1.2,CellChat sessionInfo,GitHub
+Seurat,5.2.1,CellChat sessionInfo,CellChat session only; snRNA-seq used 4.1.0
+ggplot2,3.5.1,CellChat sessionInfo,CellChat session only
+patchwork,1.3.0,CellChat sessionInfo,CellChat session only
+ComplexHeatmap,2.21.2,CellChat sessionInfo,CellChat session only
+NMF,0.28,CellChat sessionInfo,CRAN
+igraph,2.1.4,CellChat sessionInfo,CRAN
